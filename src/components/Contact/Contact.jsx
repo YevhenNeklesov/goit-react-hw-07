@@ -10,7 +10,7 @@ const Contact = ({name, phone, id, createdAt}) => {
     <>
         <p className={s.text}>Name: <br />{name}</p>
         <p className={s.text}>Phone: <br />{phone}</p>
-        <p>Created: <br />{createdAt}</p>
+        <p>Created: <br />{createdAt.slice(0, 16)}</p>
         <button className={s.btn} onClick={() => dispatch(deleteContact(id))}>Delete contact</button>
     </>        
   )

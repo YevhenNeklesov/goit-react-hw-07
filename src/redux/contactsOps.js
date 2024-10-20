@@ -32,3 +32,4 @@ export const deleteContact = createAsyncThunk("contacts/deleteContact ", async (
         return thunkApi.rejectWithValue(err.message)
     }
 })
+

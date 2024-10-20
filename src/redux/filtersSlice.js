@@ -1,14 +1,10 @@
 import { createSlice } from "@reduxjs/toolkit";
 
-
 const initialState = {
     filters: {
 		name: ""
 	}
 }
-
-
-
 
 const slice = createSlice({
     name: 'searchContact',
@@ -20,8 +16,6 @@ const slice = createSlice({
         }
     }
 })
-
-
 
 export const selectNameFilter = state => state.filter.filters.name
 export const filtersReducer = slice.reducer
