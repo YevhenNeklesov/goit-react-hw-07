@@ -1,0 +1,28 @@
+.container {
+  padding-bottom: 40px;
+}
+
+.form {
+  width: 220px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  gap: 10px;
+}
+
+.btn {
+  padding: 5px 15px;
+  margin: 0 auto;
+  background-color: rgb(134, 8, 8);
+  color: aliceblue;
+  border-radius: 5px;
+  border: none;
+}
+
+.input {
+  height: 25px;
+  border-radius: 3px;
+  outline: none;
+  border: 1px solid black;
+  padding: 0 10px;
+}
